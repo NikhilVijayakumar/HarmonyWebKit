@@ -18,8 +18,8 @@ const DrawerComponent = <T extends Features>(props: DrawerProps<T>) => {
     container,
     setSelectedIndex,
     mobileOpen,
-    handleDrawerToggle, 
-    useIcons
+    handleDrawerToggle,
+    useIcons,
   } = props
 
   const handleMenuItemClick = (index: number) => {
