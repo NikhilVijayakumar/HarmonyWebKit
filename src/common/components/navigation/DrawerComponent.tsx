@@ -11,7 +11,6 @@ import Box from '@mui/material/Box'
 import Drawer from '@mui/material/Drawer'
 import { Features, DrawerProps, drawerWidth } from './drawerData'
 
-
 const DrawerComponent = <T extends Features>(props: DrawerProps<T>) => {
   const {
     sortedFeatures,
@@ -19,7 +18,8 @@ const DrawerComponent = <T extends Features>(props: DrawerProps<T>) => {
     container,
     setSelectedIndex,
     mobileOpen,
-    handleDrawerToggle,
+    handleDrawerToggle, 
+    useIcons
   } = props
 
   const handleMenuItemClick = (index: number) => {

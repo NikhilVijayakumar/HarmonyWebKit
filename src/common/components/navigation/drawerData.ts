@@ -19,4 +19,5 @@ export interface DrawerProps<T extends Features> {
   setSelectedIndex: (value: React.SetStateAction<number>) => void
   mobileOpen: boolean
   handleDrawerToggle: () => void
+  useIcons: (path: string) => any
 }
