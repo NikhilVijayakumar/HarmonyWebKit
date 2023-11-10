@@ -1,7 +1,8 @@
 //path src/common/components/form/FormFooter.tsx
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import { Theme, ThemeProvider } from '@mui/material/styles'
+import { ThemeProvider } from '@mui/material/styles'
+//import { Theme } from '@mui/material/styles/createTheme'
 
 export type ThemeContextValue = {
   darkMode: boolean
@@ -9,8 +10,8 @@ export type ThemeContextValue = {
 }
 
 type FormFooterProps = {
-  lightTheme: Theme
-  darkTheme: Theme
+  lightTheme: any
+  darkTheme: any
   themeContext: ThemeContextValue
 }
 
